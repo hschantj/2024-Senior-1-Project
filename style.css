@@ -1,0 +1,12 @@
+* {
+    user-select: none;
+}
+
+.background {
+    width: 100%;
+    background-image: url(./bg.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+    color: white;
+}
