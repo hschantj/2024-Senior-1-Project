@@ -1,12 +1,19 @@
 * {
     user-select: none;
+    width: 100%;
 }
 
-.background {
-    width: 100%;
-    background-image: url(./bg.jpg);
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-position: center top;
-    color: white;
+.wrapper {
+    display: block;
+    gap: 10px;
+    grid-auto-rows: 100px;
+}
+
+div.content {
+    background-color: red;
+    border-radius: 20px;
+}
+
+div.content p {
+    padding: 0px 10px 0px 10px;
 }
