@@ -1,5 +1,7 @@
 * {
     user-select: none;
+    text-decoration: none;
+    font-family: "SourceHanSerif-Bold", serif;
 }
 
 html {
@@ -7,8 +9,9 @@ html {
 }
 
 body {
+    background-image: linear-gradient(to bottom, #5ECDE1, #2CAEE2);
+    background-size: 100vw 100vh;
     margin: 0;
-    background-color: #71D3E0;
 }
 
 div.contentPanel {
@@ -21,6 +24,7 @@ div.title {
     margin: 10px 0px 10px 0px;
     padding: 10px;
     text-align: justify;
+    font-size: x-large;
 }
 
 
@@ -30,13 +34,19 @@ div.contentTable {
     flex-wrap: wrap;
 }
 
+div.contentTable p {
+    height: 150px;
+    padding: 15px;
+}
+
 a.content {
-    margin: 5px;
+    margin: 5px 30px;
     width: 29%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: black;
 }
 
 img.contentImage {
@@ -61,4 +71,9 @@ img.imageText {
     object-fit: cover;
     float: left;
     margin: 0px 10px 10px 10px;
+}
+
+@font-face {
+    font-family: "SourceHanSerif-Bold";
+    src: url(./SourceHanSerif-Bold.ttc)
 }
