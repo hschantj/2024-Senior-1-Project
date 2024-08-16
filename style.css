@@ -8,10 +8,12 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+body {    margin: 0;
+    height: 100vh;
     background-image: linear-gradient(to bottom, #5ECDE1, #2CAEE2);
     background-size: cover;
-    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 div.contentPanel {
