@@ -1,53 +1,39 @@
-body{
-    background-image:url('./paper.png');
+body {
+    background-image: url('./paper.png');
     background-repeat: repeat;
     background-size: cover;
-    
+
 }
-div.content{
-    font-size:18px;
+
+div.content {
+    font-size: 18px;
     border-radius: 15px;
     padding: 5px;
     display: block;
-    margin:5px auto;
+    margin: 5px auto;
     text-align: left;
-    border-color:rgb(64, 93, 114);
+    border-color: rgb(64, 93, 114);
     border-width: 5px;
-    border-style:solid;
-    background-color:rgb(245, 227, 214);
-    overflow:auto;
+    border-style: solid;
+    background-color: rgb(245, 227, 214);
+    overflow: auto;
 }
 
-imp{
+imp {
     font-style: italic;
     font-weight: 900;
 }
 
-p{
+p {
     text-indent: 1.5%;
 }
 
-.responsive{
-    width:100%;
+.responsive {
+    width: 100%;
 }
 
-.rightside{
+.rightside {
     float: inline-end;
-    width:20%;
-    text-align: center;
-    font-style: italic;
-    font-size: smaller;
-    display: block;
-    border-color: rgb(117, 134, 148);
-    border-width: 3px;
-    border-style:dashed;
-    img{
-        width:75%;
-    }
-}
-
-.leftside{
-    float:inline-start;
     width: 20%;
     text-align: center;
     font-style: italic;
@@ -55,20 +41,48 @@ p{
     display: block;
     border-color: rgb(117, 134, 148);
     border-width: 3px;
-    border-style:dashed;
-    img{
-        width:75%;
+    border-style: dashed;
+
+    img {
+        width: 75%;
+    }
+}
+
+.leftside {
+    float: inline-start;
+    width: 20%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    display: block;
+    border-color: rgb(117, 134, 148);
+    border-width: 3px;
+    border-style: dashed;
+
+    img {
+        width: 75%;
     }
 }
 
 
 .topnav {
-    position:fixed;
-    bottom:0.5%;
-    right:2%;
-    background-color:rgb(255, 248, 243);
+    position: fixed;
+    bottom: 0.5%;
+    right: 2%;
+    background-color: rgb(255, 248, 243);
     text-align: center;
     overflow: hidden;
     font-size: medium;
 }
 
+@media screen and (max-width: 1000px) {
+
+    .rightside,
+    .leftside {
+        display: inline;
+        width: 100%;
+        margin: 5px;
+    }
+    
+
+}

@@ -77,3 +77,20 @@ img.imageText {
     font-family: "SourceHanSerif-Bold";
     src: url(./SourceHanSerif-Bold.ttc)
 }
+
+@media screen and (max-width: 1000px) {
+    body {
+        background-image: linear-gradient(to bottom, #49C5F6, #FF2AEF);
+        background-size: 100vw 100vh;
+        margin: 0;
+    }
+
+    div.contentTable {
+        display: inline;
+    }
+
+    a.content{
+        margin: 5px 10px;
+        width: 100%;
+    }
+}

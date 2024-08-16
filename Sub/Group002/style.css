@@ -79,3 +79,21 @@ div.main_text img {
 p.sub_text {
     font-size: large;
 }
+
+@media screen and (max-width: 1000px) {
+    div.gate{
+        width: 100%;
+        display: inline;
+        border-style: none;
+        border-radius: 0;
+        background-color: transparent;
+    }
+
+    div.image_with_text{
+        width: 100%;
+        display: block;
+        margin: auto;
+        border-style: none;
+        background-color: transparent;
+    }
+}
