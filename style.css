@@ -10,7 +10,7 @@ html {
 
 body {
     background-image: linear-gradient(to bottom, #5ECDE1, #2CAEE2);
-    background-size: 100vw 100vh;
+    background-size: cover;
     margin: 0;
 }
 
@@ -79,12 +79,6 @@ img.imageText {
 }
 
 @media screen and (max-width: 1000px) {
-    body {
-        background-image: linear-gradient(to bottom, #49C5F6, #FF2AEF);
-        background-size: 100vw 100vh;
-        margin: 0;
-    }
-
     div.contentTable {
         display: inline;
     }
